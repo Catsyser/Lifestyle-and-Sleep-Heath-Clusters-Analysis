@@ -15,7 +15,7 @@
 
 ## 📊 Dataset
 
-  Os dados utilizados foram obtidos no Kaggle: SITE. O conjunto de dados abrange variáveis como: duração e qualidade do sono, nível de atividade física e passos diários, nível de estresse, categoria de IMC e pressão arterial e distúrbios do sono (insônia, apneia).
+  Os dados utilizados foram obtidos no Kaggle: [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset). O conjunto de dados abrange variáveis como: duração e qualidade do sono, nível de atividade física e passos diários, nível de estresse, categoria de IMC e pressão arterial e distúrbios do sono (insônia, apneia).
   
 ## 🛠️ Tecnologias Utilizadas
 
@@ -28,7 +28,7 @@
 
 1. Clone este repositório:
 ```bash
-git clone [https://github.com/SEU_USUARIO/analise-sono-clustering.git](https://github.com/SEU_USUARIO/analise-sono-clustering.git)
+git clone https://github.com/Catsyser/Lifestyle-and-Sleep-Heath-Clusters-Analysis.git
 ```
 3. Instale as dependências necessárias:
 ```bash
@@ -51,7 +51,7 @@ O algoritmo identificou **4 perfis principais** (Clusters) nesta população:
 | Cluster | Perfil Sugerido | Características Marcantes |
 | :--- | :--- | :--- |
 | **0** | **Os Saudáveis** | Baixo estresse, IMC normal, ótima qualidade de sono. |
-| **1** | **Ativos com Risco** | Alta atividade física, mas presença marcante de Apneia do Sono. |
+| **1** | **Ativos, mas mais velhos** | Alta atividade física, mas presença marcante de Apneia do Sono. |
 | **2** | **Jovens Normais** | Grupo majoritário, jovens com bons indicadores gerais. |
 | **3** | **Grupo de Alerta** | Sedentários, alto estresse, sobrepeso e forte presença de Insônia. |
 
@@ -60,7 +60,7 @@ O algoritmo identificou **4 perfis principais** (Clusters) nesta população:
 **Comparativo de Perfis (Radar Chart):**
 Permite visualizar rapidamente as forças e fraquezas de cada cluster.
 
-** Gráfico de Colunas:**
+**Gráfico de Colunas:**
 
 Garante uma visualização dos disturbios do sono e IMC.
 
