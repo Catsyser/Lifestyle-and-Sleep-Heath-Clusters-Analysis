@@ -27,11 +27,11 @@
 ## 🚀 Como Executar
 
 1. Clone este repositório:
-`git clone ESTEREPOSITÓRIO`
+```git clone ESTEREPOSITÓRIO```
 3. Instale as dependências necessárias:
-`pip install pandas numpy matplotlib seaborn scikit-learn tabulate`
+```pip install pandas numpy matplotlib seaborn scikit-learn tabulate```
 4. Execute o script principal:
-`python final_main_kmeans.py`
+```python final_main_kmeans.py```
 5. Verifique a pasta resultados_projeto/ gerada, que conterá:
   4.1 relatorio_analise.md: Relatório completo com os insights.
   4.2 Imagens (.png) com os gráficos gerados.
